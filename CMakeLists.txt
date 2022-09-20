@@ -7,7 +7,7 @@ project(print_ip LANGUAGES CXX VERSION ${PROJECT_VESRION})
 
 set(CMAKE_CXX_STANDARD 20 CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(print_ip main.cpp)
+add_executable(print_ip main.cpp print_ip.h)
 
 # ======== GOOGLE_TEST start ===========
 #enable_testing()
